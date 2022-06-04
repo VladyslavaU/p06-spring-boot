@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: development
+
+  messages:
+    basename: "lang/res"
+    fallback-to-system-locale: true
+    encoding: UTF-8
+  mandatory-file-encoding: UTF-8
+  main:
+    allow-bean-definition-overriding: true
+
+#  mvc:
+#    view:
+#      prefix: classpath:/templates/
+#      suffix: .html
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+
